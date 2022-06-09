@@ -1,6 +1,5 @@
 use std::io::{Read, Write};
-use std::net::TcpListener;
-use std::net::TcpStream;
+use std::net::{TcpListener, TcpStream};
 use std::fs;
 use web_server::ThreadPool;
 
